@@ -3,7 +3,7 @@ import image1 from './../images/Echoes_005white.png';
 export default function Component3() {
     return (
         <div style={c3Style}>
-            <h1>( echoes )</h1>
+            <h1>(( ( echoes ) ))</h1>
             <p>
             Comes willowing across the sand
             </p>

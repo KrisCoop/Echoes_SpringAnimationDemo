@@ -54,7 +54,7 @@ export default function Component1(){
 
 const c1Style = {
     background: '#76D7EA',
-    color: 'white',
+    color: '#2F4F4F',
     padding: '1.5rem',
     display: 'flex',
     flexDirection: 'column',
@@ -63,7 +63,7 @@ const c1Style = {
 }
 
 const counter = {
-    background: '#333',
+    background: 'white',
     textAlign: 'center',
     width: '100px',
     borderRadius: '50%',

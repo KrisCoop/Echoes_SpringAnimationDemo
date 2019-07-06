@@ -39,7 +39,7 @@ export class Component2 extends Component {
 
 const c2Style = {
     background: '#71eeb8',
-    color: 'white',
+    color: '#2F4F4F',
     padding: '1.5rem',
     display: 'flex',
     flexDirection: 'column',

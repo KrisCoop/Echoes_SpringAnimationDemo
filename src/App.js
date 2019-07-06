@@ -4,6 +4,8 @@ import './App.css';
 import Component1 from './Components/Component1';
 import Component2 from './Components/Component2';
 import Component3 from './Components/Component3';
+import Component4 from './Components/Component4';
+import Component5 from './Components/Component5';
 
 
 class App extends Component{
@@ -19,6 +21,8 @@ class App extends Component{
       <div className="App">
         <Component1 />
         <Component2 toggle={this.toggle} />
+        <Component5/>
+        <Component4/>
         <Transition
           native
           items={this.state.showComponent3}
@@ -38,62 +42,3 @@ class App extends Component{
 }
 
 export default App;
-
-
-
-////////Abby text
-// import React from 'react'
-// import { useSpring, animated } from 'react-spring';
-    
-
-// const HookedComponent = () => {
-//     const props = useSpring({
-//         opacity: 1,
-//         color: 'white',
-//         from: { opacity: 0 },
-//         delay: '2000'
-//     })
-//     return <animated.div style={props}>This text Faded in Using hooks</animated.div>
-// }
-
- 
-// export default HookedComponent;
-
-
-// import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-// import { Spring  } from 'react-spring';
-
-// class App extends Component {
-//   render() {
-//     return (
-
-//         <Spring from={{ opacity: 0, marginTop: -1000 }} to={{ opacity: 1, marginTop: 0 }}>
-//           { props => (
-//             <div  className="App" style={ props }>
-//               <div >
-//                 <header className="App-header" >
-//                     <img src={logo} className="App-logo" alt="logo" />
-//                     <p>
-//                       Edit <code>src/App.js</code> and save to reload.
-//                     </p>
-//                       <a
-//                         className="App-link"
-//                         href="https://reactjs.org"
-//                         target="_blank"
-//                         rel="noopener noreferrer"
-//                       >
-//                       Learn React
-//                     </a>
-//                   </header>
-//                 </div>
-//               </div>
-//             )
-//           }
-//         </Spring>
-//     );
-//   }
-// }
-
-// export default App;
